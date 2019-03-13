@@ -28,7 +28,7 @@ class Solution:
                         break
         for a in A:
             if not find_dis_hour:return ""
-            if (int(dis_hour)==2 and a<=3 and not find_bit_hour) or (int(dis_hour)<2 and a<=9 and not find_bit_hour):
+            if (int(dis_hour)==2 and a<=3            and not find_bit_hour) or (int(dis_hour)<2 and a<=9 and not find_bit_hour):
                 bit_hour=str(a)
                 find_bit_hour=True
                 continue
