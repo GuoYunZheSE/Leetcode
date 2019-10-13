@@ -31,7 +31,7 @@ class Solution:
                                 break
                     break
         return True
-    #
+    #`
     # class Solution:
     #     def isLongPressedName(self, name: str, typed: str) -> bool:
     #         n1, n2 = len(name), len(typed)
@@ -47,7 +47,7 @@ class Solution:
     #                     i += 1
     #             elif cur != l:
     #                 return False
-    #         return True
+    #         return True`
 if __name__ == '__main__':
     S=Solution()
     name = "leelee"
