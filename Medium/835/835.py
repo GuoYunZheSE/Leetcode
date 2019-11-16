@@ -123,3 +123,8 @@ class Solution(object):
                     temp += count_ones(a&(b>>j))
                 res = max(res,temp)
         return res
+
+    def f(t: [[int]]):
+        for eachrow in t:
+            eachrow = eachrow[1:]
+            eachrow.append(0)
