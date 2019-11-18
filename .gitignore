@@ -1,0 +1,5 @@
+/cmake-build-debug/
+/CMakeLists.txt
+/.gitignore
+/.idea
+/C++Version/C++Version.xcodeproj/
