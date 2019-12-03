@@ -1,0 +1,30 @@
+class Solution:
+    def arrangeCoins(self, n: int) -> int:
+        if n==0:
+            return 0
+        m=0
+        while True:
+            if m*(m+1)/2<=n:
+                if m!=0:
+                    m=2*m
+                else:
+                    m=1
+            else:
+                return self.bisearch(int(m/2),m,n)-1
+
+    def bisearch(self,left,right,target):
+        mid=round((left+right)/2)
+        if mid*(mid+1)/2==target:
+            return mid+1
+        if mid*(mid+1)/2<target:
+            return self.bisearch(mid,right,target)
+        else:
+            if (mid-1)*((mid-1)+1)/2<=target:
+                return mid
+            else:
+                return self.bisearch(left,mid,target)
+
+
+if __name__ == '__main__':
+    S=Solution()
+    print(S.arrangeCoins(8))
