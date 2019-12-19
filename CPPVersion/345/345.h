@@ -18,13 +18,11 @@ public:
         } else{
             int begin=0;
             int end=s.length();
-
-            const char *vowels = "aeiouAEIOU";
-            const std::set<char> vowel(vowels,vowels+strlen(vowels));
+            std::set<char> vowel({'a', 'e', 'i', 'o', 'u','A','E','I','O','U'});
 
             while (begin<=end){
-                if(vowel.find(begin)!=vowel.end()){
-                    if(vowel.find(end)!=vowel.end()){
+                if(vowel.find(s[begin])!=vowel.end()){
+                    if(vowel.find(s[end])!=vowel.end()){
                         char temp=s[begin];
                         s[begin]=s[end];
                         s[end]=temp;
