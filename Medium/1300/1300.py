@@ -12,6 +12,6 @@ class Solution:
         return arr[-1]
 
 if __name__ == '__main__':
-    nums=[2,3,5]
+    nums=[1547,83230,57084,93444,70879]
     s=Solution()
-    print(s.findBestValue(nums,10))
+    print(s.findBestValue(nums,71237))
