@@ -1,5 +1,5 @@
 # Leetcode
-Personnal LeetCode Practice
+Personal LeetCode Practice
 
 The problem solved are divided in two different dictionaries according to their difficulty and suject.
 

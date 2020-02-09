@@ -23,8 +23,8 @@ class Solution:
             if sticker!=target:
                 for k, v in self.dic[target].items():
                     if self.dic[sticker].__contains__(k) and self.dic[target][k]>0:
-                        # temp[1]+=min(self.dic[sticker][k],v)
-                        temp[1]+=1
+                        temp[1]+=min(self.dic[sticker][k],v)
+                        # temp[1]+=1
             if temp[1]>maximum[1]:
                 maximum=temp
         return maximum
@@ -50,6 +50,6 @@ class Solution:
         return ans
 
 if __name__ == '__main__':
-    stickers,target=["control","heart","interest","stream","sentence","soil","wonder","them","month","slip","table","miss","boat","speak","figure","no","perhaps","twenty","throw","rich","capital","save","method","store","meant","life","oil","string","song","food","am","who","fat","if","put","path","come","grow","box","great","word","object","stead","common","fresh","the","operate","where","road","mean"],"stoodcrease"
+    stickers,target=["these","guess","about","garden","him"],"atomher"
     s=Solution()
     print(s.minStickers(stickers,target))
