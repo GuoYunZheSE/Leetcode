@@ -13,11 +13,12 @@ class Solution:
             if i % 2==0:
                 if nums[i]>=nums[i+1]:
                     nums[i],nums[i+1]=nums[i+1],nums[i]
+
             else:
                 if nums[i]<=nums[i+1]:
                     nums[i], nums[i + 1] = nums[i + 1], nums[i]
         return nums
 if __name__ == '__main__':
-    nums=[1, 5, 1, 1, 6, 4]
+    nums=[1, 3, 2, 2, 3, 1]
     S=Solution()
     print(S.wiggleSort(nums))
