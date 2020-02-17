@@ -1,5 +1,7 @@
 class Solution:
     def longestCommonPrefix(self, strs: [str]) -> str:
+        if not strs:
+            return ""
         i=0
         while i<len(strs[0]):
             Same=True
@@ -14,3 +16,7 @@ class Solution:
             else:
                 return strs[0][:i]
         return strs[0][:i]
+if __name__ == '__main__':
+    strs=["dog","racecar","car"]
+    S=Solution()
+    print(S.longestCommonPrefix(strs))
