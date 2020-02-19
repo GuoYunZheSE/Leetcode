@@ -1,8 +1,8 @@
 import typing
 import Util.Sort as us
 class LargerNumKey(str):
-    def __lt__(x, y):
-        return x+y > y+x
+    def __lt__(self, other):
+        return self+other > other+self
 
 class Solution:
     def largestNumber(self, nums: [int]) -> str:
@@ -10,9 +10,9 @@ class Solution:
             return ""
         nums.sort(key=LargerNumKey)
         res=""
-        if nums[-1]==0:
+        if nums[0]==0:
             return "0"
-        for each in nums[::-1]:
+        for each in nums:
             res+="{}".format(each)
         return res
 
