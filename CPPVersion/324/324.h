@@ -31,18 +31,18 @@ public:
         }
         std::sort(nums.begin(),nums.end());
         std::vector<int> res;
-        int m = nums.size();
-        if (m%2==0){
-            for (int i = 0; i <m/2 ; ++i) {
-                res.push_back(nums[i]);
-                res.push_back(nums[i+m/2]);
-            }
-        } else{
-            for (int i = 0; i <int(m/2) ; ++i) {
-                res.push_back(nums[i]);
-                res.push_back(nums[i+int(m/2)+1]);
-            }
-            res.push_back(nums[int(m/2)]);
+        int m = (nums.size()-1)>>1;
+        int left=m;
+        int right=nums.size()-1;
+        while (left>=0 && right>m){
+            res.push_back(nums[left--]);
+            res.push_back(nums[right--]);
+        }
+        while (left>=0){
+            res.push_back(nums[left--]);
+        }
+        while (right>m){
+            res.push_back(nums[right--]);
         }
         nums=res;
     }
