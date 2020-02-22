@@ -1,28 +1,44 @@
 import typing
 import sys
 class Solution:
+
+    def list_difference(self,before:typing.List[int],after:typing.List[int])->int:
+        dif=[after[i]-before[i] for i in range(0,len(before))]
+        res=0
+        count=0
+        for i in dif[::-1]:
+            res+=i*(10**count)
+            count+=1
+        return res
     def nextPermutation(self, nums: typing.List[int]) -> None:
         """
         Do not return anything, modify nums in-place instead.
         """
         find=False
-        minDisstance=sys.maxsize
-        minI=0
+        minI=-1
         minJ=0
+        aps=[]
         for i in range(len(nums)-1,0,-1):
-            for j in range(i-1,-1,-1):
+            j=i-1
+            while j > -1:
                 if nums[i]>nums[j]:
-                    cur=(nums[i]-nums[j])*(10**(len(nums)-1-j))+(nums[j]-nums[i])*(10**(len(nums)-1-i))
-                    if cur<minDisstance:
-                        minDisstance=cur
-                        minI=i
-                        minJ=j
                     find=True
+                    minJ=j
+                    minI=i
+                    break
+                else:
+                    j-=1
+            if find:
+                for m in range(j+1,i+1):
+                    if nums[m]>nums[j]:
+                        if nums[m]<nums[minI]:
+                            minI=m
+                break
+
         if not find:
             nums.sort()
         else:
             nums[minI], nums[minJ] = nums[minJ], nums[minI]
-            aps = sorted(nums[minJ + 1:])
             nums[minJ + 1:] = aps
             return
 if __name__ == '__main__':
