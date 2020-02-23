@@ -1,48 +1,43 @@
 import typing
 import sys
-class Solution:
 
-    def list_difference(self,before:typing.List[int],after:typing.List[int])->int:
-        dif=[after[i]-before[i] for i in range(0,len(before))]
-        res=0
-        count=0
-        for i in dif[::-1]:
-            res+=i*(10**count)
-            count+=1
-        return res
+
+class Solution:
     def nextPermutation(self, nums: typing.List[int]) -> None:
         """
         Do not return anything, modify nums in-place instead.
+        1. check from end if any number is in decreasing order.
+        2. If not found then just reverse whole and return.
+        3. Now check number which is larger than the found number which was in decreasing order, swap with it.
+        4. now reverse whole from the next index  as we want the smallest permutation as it is strictly increasing.
         """
-        find=False
-        minI=-1
-        minJ=0
-        aps=[]
-        for i in range(len(nums)-1,0,-1):
-            j=i-1
-            while j > -1:
-                if nums[i]>nums[j]:
-                    find=True
-                    minJ=j
-                    minI=i
-                    break
-                else:
-                    j-=1
-            if find:
-                for m in range(j+1,i+1):
-                    if nums[m]>nums[j]:
-                        if nums[m]<nums[minI]:
-                            minI=m
-                break
+        i = j = len(nums) - 1
 
-        if not find:
-            nums.sort()
-        else:
-            nums[minI], nums[minJ] = nums[minJ], nums[minI]
-            nums[minJ + 1:] = aps
+        while i > 0 and nums[i] <= nums[i - 1]:
+            i -= 1
+
+        ##checking if i is 0, if it is just reverse the list and return
+        if i == 0:
+            nums.reverse()
             return
+
+        k = i - 1  ## our target number index
+        while nums[j] <= nums[k]:
+            j -= 1
+
+        ## now swap numbers
+        nums[j], nums[k] = nums[k], nums[j]
+
+        ## now reverse the left list
+        left, right = k + 1, len(nums) - 1
+        while left < right:
+            nums[left], nums[right] = nums[right], nums[left]
+            left += 1
+            right -= 1
+
+
 if __name__ == '__main__':
-    nums=[20,28,29,10,21,13,24,18,25,28,12,2,20,16,13,6,21,20,25,17,24,2,10,0,13,13,19,10,4,3,13,24,2,4,5,23,18,21,11,13,11,15,8,1,23,13,29,7,25,24,24]
+    nums=[4,2,0,2,3,2,0]
     s=Solution()
     s.nextPermutation(nums)
     print(nums)
