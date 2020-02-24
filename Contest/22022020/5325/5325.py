@@ -1,17 +1,17 @@
 class Solution:
     def numberOfSubstrings(self, s: str) -> int:
-        count={c:0 for c in 'abc'}
-        res=i=j=0
-        for j in range(0,len(s)):
-            count[s[j]]+=1
-            while all(count.values()):
-                count[s[i]]-=1
-                i+=1
-            res+=i
+        check={c:0 for c in "abc"}
+        left=0
+        res=0
+        for right in range(0,len(s)):
+            check[s[right]]+=1
+            while all(check.values()):
+                check[s[left]]-=1
+                left+=1
+            res+=left
         return res
 
-
 if __name__ == '__main__':
-    s = "abcabc"
+    s = "aaacb"
     s1=Solution()
     print(s1.numberOfSubstrings(s))
