@@ -19,7 +19,7 @@ class Solution:
             Dq.append(i)
         return res if res<len(A)+1 else -1
 if __name__ == '__main__':
-    A=[84,-37,32,40,95]
-    K=167
+    A=[2,-1,2]
+    K=3
     s=Solution()
     print(s.shortestSubarray(A,K))
