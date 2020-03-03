@@ -42,3 +42,14 @@ if __name__ == '__main__':
     #方法四：使用re包
     words4=re.split(', | ',S)
     print("words4:{}".format(words4))
+
+    #Palindrome
+    def checkPalindrome(s:str)->bool:
+        return s==s[::-1]
+    def checkPalindrome2(s:str)->bool:
+        for i in range(0,len(s)//2):
+            if s[i]!=s[len(s)-i-1]:
+                return False
+        return True
+    S = "GYZZYG"
+    checkPalindrome2(S)
