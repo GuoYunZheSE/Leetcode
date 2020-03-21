@@ -1,6 +1,6 @@
 # @Date    : 15:40 03/07/2020
 # @Author  : ClassicalPi
-# @FileName: 5337.py
+# @FileName: 1371.py
 # @Software: PyCharm
 class Solution:
 
@@ -26,4 +26,4 @@ class Solution:
                 rest[s[right]]-=1
             if self.check(dic):
                 res=max(res,right-left+1)
-            else:
+            # else:
