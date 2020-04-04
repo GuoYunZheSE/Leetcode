@@ -7,6 +7,7 @@
 
 #include <string>
 #include <unordered_map>
+#include <cmath>
 class Solution {
 public:
     int numberOfSubstrings(std::string s) {

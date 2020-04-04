@@ -4,10 +4,9 @@
 
 #ifndef CPPVERSION_1372_H
 #define CPPVERSION_1372_H
-
+#include <algorithm>
 #endif //CPPVERSION_1372_H
 
-#import <algorithm>
 struct TreeNode {
      int val;
      TreeNode *left;
