@@ -26,7 +26,7 @@ public:
         int ans=this->stack.back();
         std::queue<int> temp;
         if(this->stack.empty()){
-            return -1
+            return -1;
         }
         for (int i = 0; i < this->stack.size()-1; ++i) {
             int front=this->stack.front();

@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="CPPVersion"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\googletest-release-1.10.0\;CMake Files\googletest-release-1.10.0\googlemock\;CMake Files\googletest-release-1.10.0\googlemock\cmake\;CMake Files\googletest-release-1.10.0\googletest\;CMake Files\googletest-release-1.10.0\googletest\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option working_dir="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CPPVersion">
+				<Option output="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug/CPPVersion" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/googletest-release-1.10.0/googletest/include"/>
+					<Add directory="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/googletest-release-1.10.0/googletest"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug/Makefile&quot;  VERBOSE=1 CPPVersion"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CPPVersion/fast">
+				<Option output="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug/CPPVersion" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/googletest-release-1.10.0/googletest/include"/>
+					<Add directory="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/googletest-release-1.10.0/googletest"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug/Makefile&quot;  VERBOSE=1 CPPVersion/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock">
+				<Option output="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug/lib/libgmockd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug/googletest-release-1.10.0/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/googletest-release-1.10.0/googlemock/include"/>
+					<Add directory="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/googletest-release-1.10.0/googlemock"/>
+					<Add directory="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/googletest-release-1.10.0/googletest/include"/>
+					<Add directory="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/googletest-release-1.10.0/googletest"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug/googletest-release-1.10.0/googlemock/Makefile&quot;  VERBOSE=1 gmock"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug/googletest-release-1.10.0/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug/googletest-release-1.10.0/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug/googletest-release-1.10.0/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock/fast">
+				<Option output="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug/lib/libgmockd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug/googletest-release-1.10.0/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/googletest-release-1.10.0/googlemock/include"/>
+					<Add directory="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/googletest-release-1.10.0/googlemock"/>
+					<Add directory="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/googletest-release-1.10.0/googletest/include"/>
+					<Add directory="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/googletest-release-1.10.0/googletest"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug/googletest-release-1.10.0/googlemock/Makefile&quot;  VERBOSE=1 gmock/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug/googletest-release-1.10.0/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug/googletest-release-1.10.0/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug/googletest-release-1.10.0/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock_main">
+				<Option output="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug/lib/libgmock_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug/googletest-release-1.10.0/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/googletest-release-1.10.0/googletest/include"/>
+					<Add directory="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/googletest-release-1.10.0/googlemock/include"/>
+					<Add directory="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/googletest-release-1.10.0/googlemock"/>
+					<Add directory="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/googletest-release-1.10.0/googletest"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug/googletest-release-1.10.0/googlemock/Makefile&quot;  VERBOSE=1 gmock_main"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug/googletest-release-1.10.0/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug/googletest-release-1.10.0/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug/googletest-release-1.10.0/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock_main/fast">
+				<Option output="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug/lib/libgmock_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug/googletest-release-1.10.0/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/googletest-release-1.10.0/googletest/include"/>
+					<Add directory="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/googletest-release-1.10.0/googlemock/include"/>
+					<Add directory="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/googletest-release-1.10.0/googlemock"/>
+					<Add directory="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/googletest-release-1.10.0/googletest"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug/googletest-release-1.10.0/googlemock/Makefile&quot;  VERBOSE=1 gmock_main/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug/googletest-release-1.10.0/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug/googletest-release-1.10.0/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug/googletest-release-1.10.0/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main">
+				<Option output="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug/lib/libgtest_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug/googletest-release-1.10.0/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/googletest-release-1.10.0/googletest/include"/>
+					<Add directory="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/googletest-release-1.10.0/googletest"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug/googletest-release-1.10.0/googletest/Makefile&quot;  VERBOSE=1 gtest_main"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug/googletest-release-1.10.0/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug/googletest-release-1.10.0/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug/googletest-release-1.10.0/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main/fast">
+				<Option output="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug/lib/libgtest_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug/googletest-release-1.10.0/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/googletest-release-1.10.0/googletest/include"/>
+					<Add directory="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/googletest-release-1.10.0/googletest"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug/googletest-release-1.10.0/googletest/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug/googletest-release-1.10.0/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug/googletest-release-1.10.0/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug/googletest-release-1.10.0/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest">
+				<Option output="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug/lib/libgtestd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug/googletest-release-1.10.0/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/googletest-release-1.10.0/googletest/include"/>
+					<Add directory="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/googletest-release-1.10.0/googletest"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug/googletest-release-1.10.0/googletest/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug/googletest-release-1.10.0/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug/googletest-release-1.10.0/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug/googletest-release-1.10.0/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest/fast">
+				<Option output="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug/lib/libgtestd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug/googletest-release-1.10.0/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/googletest-release-1.10.0/googletest/include"/>
+					<Add directory="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/googletest-release-1.10.0/googletest"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug/googletest-release-1.10.0/googletest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug/googletest-release-1.10.0/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug/googletest-release-1.10.0/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug/googletest-release-1.10.0/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/1/1.h">
+			<Option target="CPPVersion"/>
+		</Unit>
+		<Unit filename="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/1010/1010.h">
+			<Option target="CPPVersion"/>
+		</Unit>
+		<Unit filename="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/1014/1014.h">
+			<Option target="CPPVersion"/>
+		</Unit>
+		<Unit filename="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/1041/1041.h">
+			<Option target="CPPVersion"/>
+		</Unit>
+		<Unit filename="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/107/107.h">
+			<Option target="CPPVersion"/>
+		</Unit>
+		<Unit filename="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/1110/1110.h">
+			<Option target="CPPVersion"/>
+		</Unit>
+		<Unit filename="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/1144/1144.h">
+			<Option target="CPPVersion"/>
+		</Unit>
+		<Unit filename="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/1175/1175.h">
+			<Option target="CPPVersion"/>
+		</Unit>
+		<Unit filename="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/121/121.h">
+			<Option target="CPPVersion"/>
+		</Unit>
+		<Unit filename="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/1248/1248.h">
+			<Option target="CPPVersion"/>
+		</Unit>
+		<Unit filename="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/1287/1287.h">
+			<Option target="CPPVersion"/>
+		</Unit>
+		<Unit filename="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/1300/1300.h">
+			<Option target="CPPVersion"/>
+		</Unit>
+		<Unit filename="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/1323/1323.h">
+			<Option target="CPPVersion"/>
+		</Unit>
+		<Unit filename="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/1356/1356.h">
+			<Option target="CPPVersion"/>
+		</Unit>
+		<Unit filename="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/1357/1357.h">
+			<Option target="CPPVersion"/>
+		</Unit>
+		<Unit filename="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/1358/1358.h">
+			<Option target="CPPVersion"/>
+		</Unit>
+		<Unit filename="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/1372/1372.h">
+			<Option target="CPPVersion"/>
+		</Unit>
+		<Unit filename="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/14/14.h">
+			<Option target="CPPVersion"/>
+		</Unit>
+		<Unit filename="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/141/141.h">
+			<Option target="CPPVersion"/>
+		</Unit>
+		<Unit filename="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/1491/1491.h">
+			<Option target="CPPVersion"/>
+		</Unit>
+		<Unit filename="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/1492/1492.h">
+			<Option target="CPPVersion"/>
+		</Unit>
+		<Unit filename="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/1493/1493.h">
+			<Option target="CPPVersion"/>
+		</Unit>
+		<Unit filename="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/179/179.h">
+			<Option target="CPPVersion"/>
+		</Unit>
+		<Unit filename="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/189/189.h">
+			<Option target="CPPVersion"/>
+		</Unit>
+		<Unit filename="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/199/199.cpp">
+			<Option target="CPPVersion"/>
+		</Unit>
+		<Unit filename="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/199/199.h">
+			<Option target="CPPVersion"/>
+		</Unit>
+		<Unit filename="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/2/2.h">
+			<Option target="CPPVersion"/>
+		</Unit>
+		<Unit filename="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/2/test.cpp">
+			<Option target="CPPVersion"/>
+		</Unit>
+		<Unit filename="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/20/20.h">
+			<Option target="CPPVersion"/>
+		</Unit>
+		<Unit filename="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/206/206.h">
+			<Option target="CPPVersion"/>
+		</Unit>
+		<Unit filename="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/209/209.h">
+			<Option target="CPPVersion"/>
+		</Unit>
+		<Unit filename="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/225/225.h">
+			<Option target="CPPVersion"/>
+		</Unit>
+		<Unit filename="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/226/226.h">
+			<Option target="CPPVersion"/>
+		</Unit>
+		<Unit filename="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/3/3.h">
+			<Option target="CPPVersion"/>
+		</Unit>
+		<Unit filename="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/31/31.h">
+			<Option target="CPPVersion"/>
+		</Unit>
+		<Unit filename="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/324/324.h">
+			<Option target="CPPVersion"/>
+		</Unit>
+		<Unit filename="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/34/34.h">
+			<Option target="CPPVersion"/>
+		</Unit>
+		<Unit filename="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/345/345.h">
+			<Option target="CPPVersion"/>
+		</Unit>
+		<Unit filename="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/349/349.h">
+			<Option target="CPPVersion"/>
+		</Unit>
+		<Unit filename="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/409/409.h">
+			<Option target="CPPVersion"/>
+		</Unit>
+		<Unit filename="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/42/42.h">
+			<Option target="CPPVersion"/>
+		</Unit>
+		<Unit filename="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/43/43.h">
+			<Option target="CPPVersion"/>
+		</Unit>
+		<Unit filename="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/441/441.h">
+			<Option target="CPPVersion"/>
+		</Unit>
+		<Unit filename="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/448/448.h">
+			<Option target="CPPVersion"/>
+		</Unit>
+		<Unit filename="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/46/46.h">
+			<Option target="CPPVersion"/>
+		</Unit>
+		<Unit filename="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/47/47.h">
+			<Option target="CPPVersion"/>
+		</Unit>
+		<Unit filename="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/542/542.h">
+			<Option target="CPPVersion"/>
+		</Unit>
+		<Unit filename="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/547/547.h">
+			<Option target="CPPVersion"/>
+		</Unit>
+		<Unit filename="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/583/583.h">
+			<Option target="CPPVersion"/>
+		</Unit>
+		<Unit filename="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/605/605.h">
+			<Option target="CPPVersion"/>
+		</Unit>
+		<Unit filename="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/65/65.h">
+			<Option target="CPPVersion"/>
+		</Unit>
+		<Unit filename="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/700/700.h">
+			<Option target="CPPVersion"/>
+		</Unit>
+		<Unit filename="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/731/731.h">
+			<Option target="CPPVersion"/>
+		</Unit>
+		<Unit filename="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/862/862.h">
+			<Option target="CPPVersion"/>
+		</Unit>
+		<Unit filename="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/904/904.h">
+			<Option target="CPPVersion"/>
+		</Unit>
+		<Unit filename="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/905/905.h">
+			<Option target="CPPVersion"/>
+		</Unit>
+		<Unit filename="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/916/916.h">
+			<Option target="CPPVersion"/>
+		</Unit>
+		<Unit filename="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/92/92.h">
+			<Option target="CPPVersion"/>
+		</Unit>
+		<Unit filename="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/922/922.h">
+			<Option target="CPPVersion"/>
+		</Unit>
+		<Unit filename="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/962/962.h">
+			<Option target="CPPVersion"/>
+		</Unit>
+		<Unit filename="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/984/984.cpp">
+			<Option target="CPPVersion"/>
+		</Unit>
+		<Unit filename="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/984/984.h">
+			<Option target="CPPVersion"/>
+		</Unit>
+		<Unit filename="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/996/996.h">
+			<Option target="CPPVersion"/>
+		</Unit>
+		<Unit filename="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/googletest-release-1.10.0/googlemock/src/gmock-all.cc">
+			<Option target="gmock"/>
+		</Unit>
+		<Unit filename="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/googletest-release-1.10.0/googlemock/src/gmock_main.cc">
+			<Option target="gmock_main"/>
+		</Unit>
+		<Unit filename="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/googletest-release-1.10.0/googletest/src/gtest-all.cc">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/googletest-release-1.10.0/googletest/src/gtest_main.cc">
+			<Option target="gtest_main"/>
+		</Unit>
+		<Unit filename="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/googletest-release-1.10.0/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\googletest-release-1.10.0\"/>
+		</Unit>
+		<Unit filename="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/googletest-release-1.10.0/googlemock/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\googletest-release-1.10.0\googlemock\"/>
+		</Unit>
+		<Unit filename="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/googletest-release-1.10.0/googlemock/cmake/gmock.pc.in">
+			<Option virtualFolder="CMake Files\googletest-release-1.10.0\googlemock\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/googletest-release-1.10.0/googlemock/cmake/gmock_main.pc.in">
+			<Option virtualFolder="CMake Files\googletest-release-1.10.0\googlemock\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/googletest-release-1.10.0/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\googletest-release-1.10.0\googletest\"/>
+		</Unit>
+		<Unit filename="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/googletest-release-1.10.0/googletest/cmake/Config.cmake.in">
+			<Option virtualFolder="CMake Files\googletest-release-1.10.0\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/googletest-release-1.10.0/googletest/cmake/gtest.pc.in">
+			<Option virtualFolder="CMake Files\googletest-release-1.10.0\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/googletest-release-1.10.0/googletest/cmake/gtest_main.pc.in">
+			<Option virtualFolder="CMake Files\googletest-release-1.10.0\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/googletest-release-1.10.0/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\googletest-release-1.10.0\googletest\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
