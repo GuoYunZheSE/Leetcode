@@ -300,13 +300,13 @@ cxxabi.h
 acxx_demangle.h
 -
 
-/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/2/2.h
-vector
+/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/67/67.h
+string
 -
 
-/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/2/test.cpp
-2.h
-/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/2/2.h
+/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/67/test.cpp
+67.h
+/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/67/67.h
 gtest/gtest.h
-/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/2/gtest/gtest.h
+/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/67/gtest/gtest.h
 

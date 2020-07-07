@@ -259,32 +259,32 @@ gtest/fast:
 	$(MAKE) -f CMakeFiles/CPPVersion.dir/build.make CMakeFiles/CPPVersion.dir/199/199.cpp.s
 .PHONY : 199/199.cpp.s
 
-2/test.o: 2/test.cpp.o
+67/test.o: 67/test.cpp.o
 
-.PHONY : 2/test.o
+.PHONY : 67/test.o
 
 # target to build an object file
-2/test.cpp.o:
-	$(MAKE) -f CMakeFiles/CPPVersion.dir/build.make CMakeFiles/CPPVersion.dir/2/test.cpp.o
-.PHONY : 2/test.cpp.o
+67/test.cpp.o:
+	$(MAKE) -f CMakeFiles/CPPVersion.dir/build.make CMakeFiles/CPPVersion.dir/67/test.cpp.o
+.PHONY : 67/test.cpp.o
 
-2/test.i: 2/test.cpp.i
+67/test.i: 67/test.cpp.i
 
-.PHONY : 2/test.i
+.PHONY : 67/test.i
 
 # target to preprocess a source file
-2/test.cpp.i:
-	$(MAKE) -f CMakeFiles/CPPVersion.dir/build.make CMakeFiles/CPPVersion.dir/2/test.cpp.i
-.PHONY : 2/test.cpp.i
+67/test.cpp.i:
+	$(MAKE) -f CMakeFiles/CPPVersion.dir/build.make CMakeFiles/CPPVersion.dir/67/test.cpp.i
+.PHONY : 67/test.cpp.i
 
-2/test.s: 2/test.cpp.s
+67/test.s: 67/test.cpp.s
 
-.PHONY : 2/test.s
+.PHONY : 67/test.s
 
 # target to generate assembly for a file
-2/test.cpp.s:
-	$(MAKE) -f CMakeFiles/CPPVersion.dir/build.make CMakeFiles/CPPVersion.dir/2/test.cpp.s
-.PHONY : 2/test.cpp.s
+67/test.cpp.s:
+	$(MAKE) -f CMakeFiles/CPPVersion.dir/build.make CMakeFiles/CPPVersion.dir/67/test.cpp.s
+.PHONY : 67/test.cpp.s
 
 984/984.o: 984/984.cpp.o
 
@@ -334,9 +334,9 @@ help:
 	@echo "... 199/199.o"
 	@echo "... 199/199.i"
 	@echo "... 199/199.s"
-	@echo "... 2/test.o"
-	@echo "... 2/test.i"
-	@echo "... 2/test.s"
+	@echo "... 67/test.o"
+	@echo "... 67/test.i"
+	@echo "... 67/test.s"
 	@echo "... 984/984.o"
 	@echo "... 984/984.i"
 	@echo "... 984/984.s"
