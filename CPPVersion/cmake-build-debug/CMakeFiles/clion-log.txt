@@ -1,4 +1,4 @@
-"/Users/lucas/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/201.7846.88/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/lucas/Projects/Pycharm/Leetcode/CPPVersion
+"/Users/lucas/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/193.6494.38/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/lucas/Projects/Pycharm/Leetcode/CPPVersion
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug

@@ -5,7 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/199/199.cpp" "/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug/CMakeFiles/CPPVersion.dir/199/199.cpp.o"
-  "/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/67/test.cpp" "/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug/CMakeFiles/CPPVersion.dir/67/test.cpp.o"
+  "/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/5/test.cpp" "/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug/CMakeFiles/CPPVersion.dir/5/test.cpp.o"
   "/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/984/984.cpp" "/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/cmake-build-debug/CMakeFiles/CPPVersion.dir/984/984.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")

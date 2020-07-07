@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.15)
 project(CPPVersion)
 
-set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD 11)
 
 include_directories(${PROJECT_SOURCE_DIR}/googletest-release-1.10.0/googletest/include/)
 add_subdirectory(./googletest-release-1.10.0)
@@ -61,6 +61,6 @@ add_executable(
         1372/1372.h
         189/189.h
         225/225.h 700/700.h 107/107.h
-        1491/1491.h 1492/1492.h 1493/1493.h 2/2.h 43/43.h 67/67.h 67/test.cpp)
+        1491/1491.h 1492/1492.h 1493/1493.h 2/2.h 43/43.h 67/67.h 5/test.cpp 415/415.h 5/5.h)
 target_link_libraries(${PROJECT_NAME} ${3RD_LIBS})
 enable_testing()
