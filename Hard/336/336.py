@@ -16,20 +16,22 @@ class TRIE:
         curNode[self.END]=True
         curNode["index"]=index
 
-    def search(self,word:str)->bool:
+    def search(self,word:str)->[bool,int]:
         curNode=self.root
         for eachchar in word:
             if not curNode.__contains__(eachchar):
-                return False
+                return [False,0]
             curNode=curNode[eachchar]
 
-        if curNode[self.END]==True:
-            return True
+        if curNode.__contains__(self.END):
+            return [True,curNode["index"]]
         else:
-            return False
+            return [False,0]
 
 class Solution:
     def isPalindrome(self,case:str)->bool:
+        if case=="" or len(case)==1:
+            return True
         left=0
         right=len(case)-1
         while left<=right:
@@ -45,6 +47,20 @@ class Solution:
         for index,eachword in enumerate(words):
             trie.insert(eachword,index)
         res=[]
-        for eachword in words:
+        for index,eachword in enumerate(words):
             for i in range(len(eachword)):
-                if 
+                if self.isPalindrome(eachword[0:i]):
+                    result=trie.search(eachword[i:][::-1])
+                    if result[0] and result[1]!=index:
+                        res.append([result[1],index])
+            if eachword=="":
+                for index2,eachword in enumerate(words):
+                    if self.isPalindrome(eachword):
+                        if index!=index2:
+                            res.append([index2,index])
+                            res.append([index,index2])
+        return res
+if __name__ == '__main__':
+    S=Solution()
+    words=["abcd","dcba","lls","s","sssll",""," "]
+    print(S.palindromePairs(words))
