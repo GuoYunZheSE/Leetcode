@@ -300,15 +300,17 @@ cxxabi.h
 acxx_demangle.h
 -
 
-/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/5/5.h
+/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/8/8.h
 string
 -
-utility
+deque
+-
+cmath
 -
 
-/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/5/test.cpp
-5.h
-/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/5/5.h
+/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/8/test.cpp
 gtest/gtest.h
-/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/5/gtest/gtest.h
+-
+8.h
+/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/8/8.h
 

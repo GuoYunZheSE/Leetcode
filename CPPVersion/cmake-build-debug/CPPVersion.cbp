@@ -470,9 +470,6 @@
 		<Unit filename="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/5/5.h">
 			<Option target="CPPVersion"/>
 		</Unit>
-		<Unit filename="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/5/test.cpp">
-			<Option target="CPPVersion"/>
-		</Unit>
 		<Unit filename="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/542/542.h">
 			<Option target="CPPVersion"/>
 		</Unit>
@@ -495,6 +492,12 @@
 			<Option target="CPPVersion"/>
 		</Unit>
 		<Unit filename="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/731/731.h">
+			<Option target="CPPVersion"/>
+		</Unit>
+		<Unit filename="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/8/8.h">
+			<Option target="CPPVersion"/>
+		</Unit>
+		<Unit filename="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/8/test.cpp">
 			<Option target="CPPVersion"/>
 		</Unit>
 		<Unit filename="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/862/862.h">
