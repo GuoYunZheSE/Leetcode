@@ -1,6 +1,3 @@
-//
-// Created by 郭蕴喆 on 2020/7/29.
-//
 
 #ifndef CPPVERSION_11_H
 #define CPPVERSION_11_H
@@ -13,9 +10,14 @@ class Solution {
 public:
     int maxArea(std::vector<int>& height) {
         int res=0;
-        for (int i = 0; i < height.size(); ++i) {
-            for (int j = i; j < height.size(); ++j) {
-                res=std::max(res,std::min(height[i],height[j])*(j-i));
+        int left=0;
+        int right=height.size()-1;
+        while (left<right){
+            res=std::max(res,std::min(height[left],height[right])*(right-left));
+            if (height[left]<height[right]){
+                left+=1;
+            } else{
+                right-=1;
             }
         }
         return res;

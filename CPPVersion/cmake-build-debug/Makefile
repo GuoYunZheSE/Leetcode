@@ -232,6 +232,33 @@ gtest/fast:
 	$(MAKE) -f googletest-release-1.10.0/googletest/CMakeFiles/gtest.dir/build.make googletest-release-1.10.0/googletest/CMakeFiles/gtest.dir/build
 .PHONY : gtest/fast
 
+11/test.o: 11/test.cpp.o
+
+.PHONY : 11/test.o
+
+# target to build an object file
+11/test.cpp.o:
+	$(MAKE) -f CMakeFiles/CPPVersion.dir/build.make CMakeFiles/CPPVersion.dir/11/test.cpp.o
+.PHONY : 11/test.cpp.o
+
+11/test.i: 11/test.cpp.i
+
+.PHONY : 11/test.i
+
+# target to preprocess a source file
+11/test.cpp.i:
+	$(MAKE) -f CMakeFiles/CPPVersion.dir/build.make CMakeFiles/CPPVersion.dir/11/test.cpp.i
+.PHONY : 11/test.cpp.i
+
+11/test.s: 11/test.cpp.s
+
+.PHONY : 11/test.s
+
+# target to generate assembly for a file
+11/test.cpp.s:
+	$(MAKE) -f CMakeFiles/CPPVersion.dir/build.make CMakeFiles/CPPVersion.dir/11/test.cpp.s
+.PHONY : 11/test.cpp.s
+
 199/199.o: 199/199.cpp.o
 
 .PHONY : 199/199.o
@@ -258,33 +285,6 @@ gtest/fast:
 199/199.cpp.s:
 	$(MAKE) -f CMakeFiles/CPPVersion.dir/build.make CMakeFiles/CPPVersion.dir/199/199.cpp.s
 .PHONY : 199/199.cpp.s
-
-8/test.o: 8/test.cpp.o
-
-.PHONY : 8/test.o
-
-# target to build an object file
-8/test.cpp.o:
-	$(MAKE) -f CMakeFiles/CPPVersion.dir/build.make CMakeFiles/CPPVersion.dir/8/test.cpp.o
-.PHONY : 8/test.cpp.o
-
-8/test.i: 8/test.cpp.i
-
-.PHONY : 8/test.i
-
-# target to preprocess a source file
-8/test.cpp.i:
-	$(MAKE) -f CMakeFiles/CPPVersion.dir/build.make CMakeFiles/CPPVersion.dir/8/test.cpp.i
-.PHONY : 8/test.cpp.i
-
-8/test.s: 8/test.cpp.s
-
-.PHONY : 8/test.s
-
-# target to generate assembly for a file
-8/test.cpp.s:
-	$(MAKE) -f CMakeFiles/CPPVersion.dir/build.make CMakeFiles/CPPVersion.dir/8/test.cpp.s
-.PHONY : 8/test.cpp.s
 
 984/984.o: 984/984.cpp.o
 
@@ -331,12 +331,12 @@ help:
 	@echo "... gmock_main"
 	@echo "... gtest_main"
 	@echo "... gtest"
+	@echo "... 11/test.o"
+	@echo "... 11/test.i"
+	@echo "... 11/test.s"
 	@echo "... 199/199.o"
 	@echo "... 199/199.i"
 	@echo "... 199/199.s"
-	@echo "... 8/test.o"
-	@echo "... 8/test.i"
-	@echo "... 8/test.s"
 	@echo "... 984/984.o"
 	@echo "... 984/984.i"
 	@echo "... 984/984.s"
