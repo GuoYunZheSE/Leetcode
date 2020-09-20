@@ -11,7 +11,6 @@ import matplotlib.pylab as plt
 import xlrd
 from statsmodels.graphics.tsaplots import plot_acf, plot_pacf
 from statsmodels.tsa.arima_model import ARIMA
-
 def get_file(filepath):
     def timestamp_to_string(ts:int)->str:
         time_struct = time.localtime(ts)
@@ -49,8 +48,8 @@ def teststationarity(ts):
     dfoutput = pd.Series(dftest[0:4], index=['Test Statistic', 'p-value', '#Lags Used', 'Number of Observations Used'])
     for key, value in dftest[4].items():
         dfoutput['Critical Value (%s)' % key] = value
-    print(dfoutput)
-    #return dfoutput
+    # print(dfoutput)
+    return dfoutput
 
 
 
@@ -72,50 +71,27 @@ if __name__ == '__main__':
     print(ts.tail())
     ts.index = pd.to_datetime(df.index, format="%Y-%m-%d-%H-%M-%S")# .to_period('S')freq='M'
     ts=ts.replace([np.inf, -np.inf], np.nan).dropna(axis=0, how='any')
-    #draw_trend(ts, 12)
+    draw_trend(ts, 12)
 
-    #draw_ts(ts)
+    draw_ts(ts)
     # Dickey-Fuller test:
 
     teststationarity(ts)
 
     draw_acf_pacf(ts, 20)
 
-    """
-        arima_mod05 = ARIMA(ts, (0, 1, 5)).fit()
-        print("arma_mod70:", arima_mod05.aic, arima_mod05.bic, arima_mod05.hqic)
-        arima_mod20 = ARIMA(ts, (2, 1, 0)).fit()
-        print("arma_mod01:", arima_mod20.aic, arima_mod20.bic, arima_mod20.hqic)
-        arima_mod25 = ARIMA(ts, (2, 1, 5)).fit()
-        print("arma_mod71:", arima_mod25.aic, arima_mod25.bic, arima_mod25.hqic)
-    """
-
-
     model = ARIMA(ts, order=(5, 1, 1))#, freq='S'
-
-    #result_arima = model.fit(disp=-1, method='css')
     result_arima = model.fit(disp=-1)
     plt.plot(ts, color='red')
     plt.plot(result_arima.fittedvalues, color='blue')
-    #plt.title('ARIMA RSS:%.4f')
-    #plt.show()
-
-    '''
-    predict_ts = result_arima.predict(start='2020-06-07-18-48-11', end='2020-07-16-21-44-52')
-    predict_ts = predict_ts.dropna(inplace=True)
-    ts = ts[predict_ts.index]  # 过滤没有预测的记录
-    
-    plt.figure(facecolor='white')
-    predict_ts.plot(color='blue', label='Predict')
-    ts.plot(color='red', label='Original')
-    plt.legend(loc='best')
-    plt.title('RMSE: %.4f' % np.sqrt(sum((predict_ts-ts)**2)/ts.size))
-    plt.show()
-    '''
-
+    plt.title('RSS: %.4f'% sum((result_arima.fittedvalues-ts)**2))#RSS是NAN 不太對
     predict_ts = result_arima.predict()
-    predict_ts.dropna(inplace=True)
+
+    # 這一部分加上就連圖都沒有了 但是是應該有的
+    # train1_reindex = predict_ts.reindex(pd.date_range(start=predict_ts.index[0], end=predict_ts.index[-1], freq='s'))
+    # predict_ts.dropna(inplace=True)
     ts = ts[predict_ts.index]  # 过滤没有预测的记录
+
     plt.figure(facecolor='white')
     predict_ts.plot(color='blue', label='Predict')
     ts.plot(color='red', label='Original')
