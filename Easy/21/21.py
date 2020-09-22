@@ -15,20 +15,16 @@ class Solution:
 
         res=ListNode()
 
-        if l1 or l2:
-            if l1 and l2:
-                if l1.val<l2.val:
-                    res=l1
-                    l1=l1.next
-                else:
-                    res=l2
-                    l2=l2.next
-            elif l1:
+        if l1 and l2:
+            if l1.val<l2.val:
                 res=l1
-                return res
+                l1=l1.next
             else:
                 res=l2
-                return res
+                l2=l2.next
+        else:
+            res=l1 or l2
+            return res
 
         head=res
 
@@ -41,11 +37,6 @@ class Solution:
                 else:
                     l1,l2=l2,l1
             else:
-                if l1:
-                    res.next=l1
-                    return head
-                elif l2:
-                    res.next=l2
-                    return head
-                else:
-                    return head
+                if l1 or l2:
+                    res.next=l1 or l2
+                return head
