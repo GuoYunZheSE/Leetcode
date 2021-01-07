@@ -307,6 +307,8 @@ vector
 /Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/11/test.cpp
 gtest/gtest.h
 -
+stdio.h
+-
 11.h
 /Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/11/11.h
 
