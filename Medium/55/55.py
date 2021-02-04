@@ -35,18 +35,51 @@
 #             return any(temp)
 #         return jump(0)
 
-# Backtracking-2
+# # Backtracking-2
+# class Solution:
+#     def canJump(self, nums: [int]) -> bool:
+#         def subJump(position:int, nums:[int]):
+#             if position==len(nums)-1:
+#                 return True
+#             furthest=min(len(nums)-1,position+nums[position])
+#             for nextPosition in range(furthest,position-1,-1):
+#                 if subJump(nextPosition,nums):
+#                     return True
+#             return False
+#         return subJump(0,nums)
+
+# # DP: Top-Down
+# class Solution:
+#     def canJump(self, nums: [int]) -> bool:
+#         self.memo=[0]*len(nums)
+#         self.memo[-1]=1
+#         def subJump(position:int, nums:[int]):
+#             if self.memo[position]!=0:
+#                 return self.memo[position]==1
+#             furthest=min(len(nums)-1,position+nums[position])
+#             for nextPosition in range(position+1,furthest+1):
+#                 if subJump(nextPosition,nums):
+#                     self.memo[position]=1
+#
+#                     return True
+#             return False
+#         return subJump(0,nums)
+
+# DP: Bottom-Up
 class Solution:
     def canJump(self, nums: [int]) -> bool:
-        def subJump(position:int, nums:[int]):
-            if position==len(nums)-1:
+        self.memo=[0]*len(nums)
+        self.memo[-1]=1
+        for position in range(len(nums)-1,-1,-1):
+            furthest = min(len(nums) - 1, position + nums[position])
+            if self.memo[position] != 0:
+                return self.memo[position] == 1
+            if subJump(nextPosition,nums):
+                self.memo[position]=1
+
                 return True
-            furthest=min(len(nums)-1,position+nums[position])
-            for nextPosition in range(furthest,position-1,-1):
-                if subJump(nextPosition,nums):
-                    return True
             return False
-        return subJump(0,nums)
+        return self.memo[0]==1
 if __name__ == '__main__':
     S=Solution()
-    print(S.canJump([2,3,1,1,4,2,3,1,1,4,2,3,1,1,4,3,1,2,2,1,5,2,4]))
+    print(S.canJump([4,2,1,0,9,2,1,4,3,2,5,3,1]))
