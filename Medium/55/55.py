@@ -65,21 +65,31 @@
 #             return False
 #         return subJump(0,nums)
 
-# DP: Bottom-Up
+# # DP: Bottom-Up
+# class Solution:
+#     def canJump(self, nums: [int]) -> bool:
+#         memo = [0] * len(nums)
+#         memo[-1] = 1
+#
+#         def subJump(position: int, nums: [int]):
+#             if memo[position] != 0:
+#                 return memo[position] == 1
+#             furthest = min(len(nums) - 1, position + nums[position])
+#             for nextPosition in range(position + 1, furthest + 1):
+#                 if subJump(nextPosition, nums):
+#                     return True
+#             return False
+#
+#         return subJump(0, nums)
+
+# Greedy
 class Solution:
     def canJump(self, nums: [int]) -> bool:
-        self.memo=[0]*len(nums)
-        self.memo[-1]=1
-        for position in range(len(nums)-1,-1,-1):
-            furthest = min(len(nums) - 1, position + nums[position])
-            if self.memo[position] != 0:
-                return self.memo[position] == 1
-            if subJump(nextPosition,nums):
-                self.memo[position]=1
-
-                return True
-            return False
-        return self.memo[0]==1
+        last_position=len(nums)-1
+        for i in range(len(nums)-1,-1,-1):
+            if nums[i]+i>=last_position:
+                last_position=i
+        return last_position==0
 if __name__ == '__main__':
     S=Solution()
-    print(S.canJump([4,2,1,0,9,2,1,4,3,2,5,3,1]))
+    print(S.canJump([3,2,1,0,4]))
