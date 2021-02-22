@@ -22,9 +22,15 @@ import math
 
 class Solution:
     def uniquePaths(self, m: int, n: int) -> int:
-        dp=[[0]*n]*m
-        dp[0][0]=0
-        dp[0][1],dp[1][0]=1,1
+        if m==1 or n==1:
+            return 1
+        dp=[[0 for i in range(n+1)] for j in range(m+1)]
+        dp[1][1],dp[2][1],dp[1][2]=1,1,1
+        for row in range(1,m+1):
+            for column in range(1,n+1):
+                if not(row==1 and column==1):
+                    dp[row][column]=dp[row-1][column]+dp[row][column-1]
+        return dp[m][n]
 
 
 if __name__ == '__main__':
