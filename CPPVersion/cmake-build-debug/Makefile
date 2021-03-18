@@ -252,33 +252,6 @@ gtest/fast:
 	$(MAKE) $(MAKESILENT) -f googletest-release-1.10.0/googletest/CMakeFiles/gtest.dir/build.make googletest-release-1.10.0/googletest/CMakeFiles/gtest.dir/build
 .PHONY : gtest/fast
 
-11/test.o: 11/test.cpp.o
-
-.PHONY : 11/test.o
-
-# target to build an object file
-11/test.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPPVersion.dir/build.make CMakeFiles/CPPVersion.dir/11/test.cpp.o
-.PHONY : 11/test.cpp.o
-
-11/test.i: 11/test.cpp.i
-
-.PHONY : 11/test.i
-
-# target to preprocess a source file
-11/test.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPPVersion.dir/build.make CMakeFiles/CPPVersion.dir/11/test.cpp.i
-.PHONY : 11/test.cpp.i
-
-11/test.s: 11/test.cpp.s
-
-.PHONY : 11/test.s
-
-# target to generate assembly for a file
-11/test.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPPVersion.dir/build.make CMakeFiles/CPPVersion.dir/11/test.cpp.s
-.PHONY : 11/test.cpp.s
-
 199/199.o: 199/199.cpp.o
 
 .PHONY : 199/199.o
@@ -305,6 +278,33 @@ gtest/fast:
 199/199.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPPVersion.dir/build.make CMakeFiles/CPPVersion.dir/199/199.cpp.s
 .PHONY : 199/199.cpp.s
+
+79/79.o: 79/79.cpp.o
+
+.PHONY : 79/79.o
+
+# target to build an object file
+79/79.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPPVersion.dir/build.make CMakeFiles/CPPVersion.dir/79/79.cpp.o
+.PHONY : 79/79.cpp.o
+
+79/79.i: 79/79.cpp.i
+
+.PHONY : 79/79.i
+
+# target to preprocess a source file
+79/79.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPPVersion.dir/build.make CMakeFiles/CPPVersion.dir/79/79.cpp.i
+.PHONY : 79/79.cpp.i
+
+79/79.s: 79/79.cpp.s
+
+.PHONY : 79/79.s
+
+# target to generate assembly for a file
+79/79.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPPVersion.dir/build.make CMakeFiles/CPPVersion.dir/79/79.cpp.s
+.PHONY : 79/79.cpp.s
 
 984/984.o: 984/984.cpp.o
 
@@ -351,12 +351,12 @@ help:
 	@echo "... gmock_main"
 	@echo "... gtest"
 	@echo "... gtest_main"
-	@echo "... 11/test.o"
-	@echo "... 11/test.i"
-	@echo "... 11/test.s"
 	@echo "... 199/199.o"
 	@echo "... 199/199.i"
 	@echo "... 199/199.s"
+	@echo "... 79/79.o"
+	@echo "... 79/79.i"
+	@echo "... 79/79.s"
 	@echo "... 984/984.o"
 	@echo "... 984/984.i"
 	@echo "... 984/984.s"
