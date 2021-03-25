@@ -13,10 +13,8 @@ class Solution:
         self.valid=True
     def DFS(self,root:TreeNode,depth):
         if self.valid:
-            print(f"Depth:{depth} Val:{root.val}")
             if not root.left and not root.right:
-                depth+=1
-                return depth
+                return 1
             else:
                 temp1,temp2=0,0
                 if root.left:
@@ -27,9 +25,29 @@ class Solution:
                 depth=max(temp2,temp1)+1
                 print(f"Depth:{depth} Val:{root.val}")
                 return depth
+        else:
+            print(f"Depth:{depth} Val:{root.val} -1")
+            return -1
 
     def isBalanced(self, root: TreeNode) -> bool:
         if not root:
             return True
         self.DFS(root,1)
         return self.valid
+
+if __name__ == '__main__':
+    S=Solution()
+    N1=TreeNode(1)
+    N2 = TreeNode(2)
+    N3 = TreeNode(2)
+    N4 = TreeNode(3)
+    N5 = TreeNode(3)
+    N6 = TreeNode(4)
+    N7 = TreeNode(4)
+    N1.left=N2
+    N1.right=N3
+    N2.left=N4
+    N3.right=N5
+    N4.left=N6
+    N5.right=N7
+    print(S.isBalanced(N1))
