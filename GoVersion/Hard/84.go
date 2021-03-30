@@ -28,8 +28,4 @@ func largestRectangleArea(heights []int) int {
 	return res
 }
 
-func main() {
-	heights := []int{2, 1,5,6,2,3}
-	fmt.Println(largestRectangleArea(heights))
-}
 
