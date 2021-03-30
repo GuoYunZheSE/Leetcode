@@ -64,6 +64,6 @@ add_executable(
         1491/1491.h 1492/1492.h 1493/1493.h 2/2.h 43/43.h 67/67.h 415/415.h 5/5.h 11/11.h 8/8.h 79/79.h
         239/239.h
         84/84.h
-        91/91.h 91/91.cpp)
+        91/91.h 91/91.cpp 101/101.h 110/110.h)
 target_link_libraries(${PROJECT_NAME} ${3RD_LIBS})
 enable_testing()
