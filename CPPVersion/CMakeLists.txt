@@ -67,6 +67,6 @@ add_executable(
         91/91.h
         101/101.h 110/110.h
         105/105.h
-        106/106.h 106/106.cpp 122/122.h)
+        106/106.h 106/106.cpp 122/122.h 123/123.h)
 target_link_libraries(${PROJECT_NAME} ${3RD_LIBS})
 enable_testing()

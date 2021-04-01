@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"strconv"
 )
 
@@ -27,12 +26,4 @@ func numDecodings(s string) int {
 		}
 	}
 	return res[len(res)-1]
-}
-
-
-
-
-
-func main()  {
-	fmt.Println(numDecodings("0"))
 }
