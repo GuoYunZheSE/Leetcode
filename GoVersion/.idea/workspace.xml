@@ -19,14 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1af44503-9751-487d-8e6f-0b819d6aed50" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../CPPVersion/123/123.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Easy/101.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CPPVersion/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../CPPVersion/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CPPVersion/cmake-build-debug/CPPVersion.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../CPPVersion/cmake-build-debug/CPPVersion.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Medium/19.go" beforeDir="false" afterPath="$PROJECT_DIR$/Medium/19.go" afterDir="false" />
-    </list>
+    <list default="true" id="1af44503-9751-487d-8e6f-0b819d6aed50" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
