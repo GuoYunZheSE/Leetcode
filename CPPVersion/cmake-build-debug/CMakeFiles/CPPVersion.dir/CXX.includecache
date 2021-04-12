@@ -300,19 +300,25 @@ cxxabi.h
 acxx_demangle.h
 -
 
-/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/106/106.cpp
+/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/127/127.cpp
 gtest/gtest.h
 -
-106.h
-/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/106/106.h
+127.h
+/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/127/127.h
 
-/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/106/106.h
-vector
+/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/127/127.h
+../UTILS.h
+/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/UTILS.h
+
+/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/UTILS.h
+string
 -
-deque
+vector
 -
 unordered_map
 -
-iostream
+set
+-
+deque
 -
 

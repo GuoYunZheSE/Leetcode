@@ -19,7 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1af44503-9751-487d-8e6f-0b819d6aed50" name="Default Changelist" comment="" />
+    <list default="true" id="1af44503-9751-487d-8e6f-0b819d6aed50" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Hard/123.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Medium/105.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Medium/139/139.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,7 +55,7 @@
     <property name="last_opened_file_path" value="$USER_HOME$" />
   </component>
   <component name="RunManager" selected="Go Build.go build 19.go">
-    <configuration name="go build 19.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 19.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
       <module name="GoVersion" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />

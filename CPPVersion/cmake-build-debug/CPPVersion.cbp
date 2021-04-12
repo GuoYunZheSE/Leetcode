@@ -344,9 +344,6 @@
 		<Unit filename="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/105/105.h">
 			<Option target="CPPVersion"/>
 		</Unit>
-		<Unit filename="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/106/106.cpp">
-			<Option target="CPPVersion"/>
-		</Unit>
 		<Unit filename="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/106/106.h">
 			<Option target="CPPVersion"/>
 		</Unit>
@@ -378,6 +375,12 @@
 			<Option target="CPPVersion"/>
 		</Unit>
 		<Unit filename="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/1248/1248.h">
+			<Option target="CPPVersion"/>
+		</Unit>
+		<Unit filename="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/127/127.cpp">
+			<Option target="CPPVersion"/>
+		</Unit>
+		<Unit filename="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/127/127.h">
 			<Option target="CPPVersion"/>
 		</Unit>
 		<Unit filename="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/1287/1287.h">
@@ -558,6 +561,9 @@
 			<Option target="CPPVersion"/>
 		</Unit>
 		<Unit filename="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/996/996.h">
+			<Option target="CPPVersion"/>
+		</Unit>
+		<Unit filename="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/UTILS.h">
 			<Option target="CPPVersion"/>
 		</Unit>
 		<Unit filename="/Users/lucas/Projects/Pycharm/Leetcode/CPPVersion/googletest-release-1.10.0/googlemock/src/gmock-all.cc">
