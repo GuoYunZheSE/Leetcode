@@ -12,7 +12,7 @@ class Solution:
             return
         for step in range(0,len(s)-start+1):
             if self.isPalindrome(start,start+step,s):
-                self.DFS(start+step,s,path+[s[start:start+step+1]])
+                self.DFS(start+step+1,s,path+[s[start:start+step+1]])
     def partition(self, s: str) -> [[str]]:
         self.DFS(0,s,[])
         return self.res
@@ -23,3 +23,7 @@ class Solution:
             start+=1
             end-=1
         return True
+
+if __name__ == '__main__':
+    S=Solution()
+    print(S.partition("aab"))

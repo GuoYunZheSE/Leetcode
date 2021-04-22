@@ -70,6 +70,10 @@ add_executable(
         106/106.h
         122/122.h
         123/123.h
-        127/127.h UTILS.h 127/127.cpp)
+        127/127.h UTILS.h
+        131/131.h
+        131/131.cpp
+        139/139.h
+)
 target_link_libraries(${PROJECT_NAME} ${3RD_LIBS})
 enable_testing()
