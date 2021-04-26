@@ -1,44 +1,100 @@
-#include<iostream>
-
-#include<iomanip>
+#include <iostream>
 
 using namespace std;
+
+
 
 int main()
 
 {
 
-	double pricep, pricea, numberp, numbera, pay, alreadyget, payp, paya, back;
+    int a, b, c, h,j;
 
-	cin >> alreadyget >> pricep >> numberp >> pricea >> numbera;
+    cout << "汉字以多少点阵方式显示，16*16输入16,32*32输入32，依次类推?" << endl;
 
-	payp = pricep * numberp;
+    cin >> a;
 
-	paya = pricea * numbera;
+    b = a % 2;
 
-	pay = payp + paya;
+    if (b > 0)
 
-	back = alreadyget - pay;
+    {
 
-	cout << "XXX超市购物小票" << endl;
+        j = a;//横的元素个数
 
-	cout << "----------------------------------" << endl;
+        c = a - 1;
 
-	cout << "物品名称" << " " << "单价" << " " << "数量" << " " << "金额" << endl;
+        h = (a - 1) / 2;
 
-	cout << "花生" << "     " << fixed << setprecision(2) << pricep << " " << numberp << " " << payp << endl;
+    }
 
-	cout << "苹果" << "     " << fixed << setprecision(2) << pricea << " " << numbera << " " << paya << endl;
+    else c = a - 2, h = ((a - 2) / 2),j=a-1;
 
-	cout << " ----------------------------------" << endl;
+    char d;
 
-	cout << "已收： ￥" << fixed << setprecision(2) << alreadyget << "元" << endl;
+    cout << "请输入构成汉字的基本字符号是?" << endl;
 
-	cout << "实收： ￥" << fixed << setprecision(2) << pay << "元" << endl;
+    cin >> d;
 
-	cout << "找零： ￥" << fixed << setprecision(2) << back << "元" << endl;
+    int e = 1, f = 1, g = 1, i = 1 + h;//e表示第几行  f
 
-	return 0;
+    while (e <= a)
+
+    {
+
+        if (e == 1 || e == i || e == a)
+
+        {
+
+            while (f <= j)
+
+            {
+
+                cout << d;
+
+                f = f + 1;
+
+            }
+
+            f = 1;
+
+            cout << endl;
+
+        }
+
+        else
+
+        {
+
+            while (g <= ((c / 2)+1))
+
+            {
+
+                if (g == ((c / 2) + 1))
+
+                {
+
+                    cout << d;
+
+                }
+
+                else cout << " ";
+
+                g = g + 1;
+
+            }
+
+            g = 1;
+
+            cout << endl;
+
+        }
+
+        e = e + 1;
+
+    }
+
+    cout << endl;
 
 }
 
