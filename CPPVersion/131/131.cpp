@@ -1,100 +1,38 @@
-#include <iostream>
+// 学号201936501443   姓名：陶行健   班级：数学4班
 
+#include <iostream>
+#include<cmath>
 using namespace std;
 
 
-
-int main()
-
+double function(double x)  //定义函数f（x）
 {
-
-    int a, b, c, h,j;
-
-    cout << "汉字以多少点阵方式显示，16*16输入16,32*32输入32，依次类推?" << endl;
-
-    cin >> a;
-
-    b = a % 2;
-
-    if (b > 0)
-
-    {
-
-        j = a;//横的元素个数
-
-        c = a - 1;
-
-        h = (a - 1) / 2;
-
-    }
-
-    else c = a - 2, h = ((a - 2) / 2),j=a-1;
-
-    char d;
-
-    cout << "请输入构成汉字的基本字符号是?" << endl;
-
-    cin >> d;
-
-    int e = 1, f = 1, g = 1, i = 1 + h;//e表示第几行  f
-
-    while (e <= a)
-
-    {
-
-        if (e == 1 || e == i || e == a)
-
-        {
-
-            while (f <= j)
-
-            {
-
-                cout << d;
-
-                f = f + 1;
-
-            }
-
-            f = 1;
-
-            cout << endl;
-
-        }
-
-        else
-
-        {
-
-            while (g <= ((c / 2)+1))
-
-            {
-
-                if (g == ((c / 2) + 1))
-
-                {
-
-                    cout << d;
-
-                }
-
-                else cout << " ";
-
-                g = g + 1;
-
-            }
-
-            g = 1;
-
-            cout << endl;
-
-        }
-
-        e = e + 1;
-
-    }
-
-    cout << endl;
-
+    return (1 + 2 * x * x + 3 * x * x * x);
 }
 
+
+
+double integralValue(double a, double b,int N)  //求定积分
+{
+    double dx = (b - a) / N;
+    double sum = 0;
+    for (int n = 0; n <= N; n++)
+    {
+        sum += dx * ((function(a + n * dx)) + function(a + (n + 1) * dx)) / 2;
+    }
+    return sum;
+}
+
+int main()
+{
+    double a, b;
+    int N;
+    cout << "请输入积分上限：";
+    cin >> b;
+    cout << "请输入积分下限：";
+    cin >> a;
+    cout << "请输入积分区间数：";
+    cin >> N;
+    cout << "积分结果等于：" << integralValue(a, b, N);
+    return 0;
+}
