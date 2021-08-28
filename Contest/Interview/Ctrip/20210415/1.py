@@ -31,7 +31,5 @@ class Solution:
             print("{:.2f}".format(similarity))
 
 if __name__ == '__main__':
-    line=sys.stdin.readline().strip()
-    A,B=line.split("<trip>")
     S=Solution()
-    S.similarity(A,B)
+    S.similarity("s e a","a t e")
