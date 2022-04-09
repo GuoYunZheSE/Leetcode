@@ -1,24 +1,23 @@
 package main
 
-type TreeNode struct {
-    Val int
-    Left *TreeNode
-    Right *TreeNode
+import (
+	"fmt"
+)
+
+var ch = make(chan int)
+
+func print5(i int) {
+	<-ch
+	fmt.Println(i)
 }
 
-func compare(left *TreeNode,right *TreeNode)bool{
-	if left == nil && right == nil{
-		return true
+func main() {
+	fmt.Println("Start print 75")
+
+	for i := 1; i <= 75; i ++ {
+		go print5(i)
+		ch <- 1
 	}
-	if left == nil || right == nil{
-		return false
-	}
-	var lr bool = compare(left.Left,right.Right)
-	var rr bool = compare(left.Right,right.Left)
-	return lr && rr && left.Val==right.Val
-}
-func isSymmetric(root *TreeNode) bool {
-	return compare(root.Left,root.Right)
-}
 
-
+	fmt.Println("End print 75")
+}
