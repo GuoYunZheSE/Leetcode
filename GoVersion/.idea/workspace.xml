@@ -20,12 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1af44503-9751-487d-8e6f-0b819d6aed50" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Medium/114/114.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Medium/142/142.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Medium/146/146.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Easy/101.go" beforeDir="false" afterPath="$PROJECT_DIR$/Easy/101.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Medium/221/221.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Medium/221/221.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Easy/704/704.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Medium/1721.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
